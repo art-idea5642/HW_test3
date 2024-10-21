@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class ZeroDivideException extends IllegalArgumentException {
 
     public ZeroDivideException() {
-        super("На ноль делить нельзя");
+        super("На ноль делить нельзя!");
     }
 
 }
