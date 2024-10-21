@@ -16,6 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorServiceParameterTest {
 
+
     private final CalculatorService out = new CalculatorService();
 
     @MethodSource("provideArgumentsForCalculatorTests")

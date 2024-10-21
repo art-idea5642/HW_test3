@@ -52,8 +52,6 @@ public class CalculatorServiceTest {
     public void shouldReturn1Divide3And3() {
         assertEquals(ONE, out.divide(THREE, THREE));
     }
-
-
     @Test
     public void shouldThrowZeroDivideExceptionWhenAnyNumbDivide0() {
         assertThrows(ZeroDivideException.class, () -> out.divide(ONE, ZERO));
