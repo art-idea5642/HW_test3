@@ -53,6 +53,7 @@ public class CalculatorServiceTest {
         assertEquals(ONE, out.divide(THREE, THREE));
     }
 
+
     @Test
     public void shouldThrowZeroDivideExceptionWhenAnyNumbDivide0() {
         assertThrows(ZeroDivideException.class, () -> out.divide(ONE, ZERO));
